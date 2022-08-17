@@ -6,7 +6,7 @@ int main()
     double numberB=0;
     char theAction;
     double theResult = 0;
-    std::cout << "Please Enter First value: ";
+    std::cout << "Please Enter values (first-number action second-number like 2 + 5): ";
     std::cin >> numberA >> theAction >> numberB;
     switch(theAction)
     {
